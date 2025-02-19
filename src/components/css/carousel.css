@@ -1,0 +1,40 @@
+.carousel-container {
+    width: 80%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    margin-left: 5rem;
+    margin-right: 0;
+}
+
+.carousel {
+    display: flex;
+    gap: 1rem;
+    animation: scroll-carousel 15s linear infinite;
+}
+
+.carousel img {
+    width: 280px;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Scroll Animation */
+@keyframes scroll-carousel {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.carousel-container:hover .carousel {
+    animation-play-state: paused;
+}
+
+.carousel-container .carousel {
+    animation-play-state: running;
+}
