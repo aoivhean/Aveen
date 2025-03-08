@@ -175,6 +175,26 @@
     }
 }
 
+@media (max-width: 390px) {
+    .hero {
+        padding-top: 30px;
+    }
+
+    .hero-left .left-content h3 {
+        font-size: 1.05rem;
+      
+    }
+
+    .hero-right {
+        height: 45vh;
+    }
+
+    .hero-right-button-wrapper {
+        padding: 0.5rem 0.9rem;
+        font-size: 0.8rem;
+    }
+}
+
 /* Small Phones (max-width: 480px) */
 @media (max-width: 480px) {
     .hero {

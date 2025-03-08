@@ -237,6 +237,32 @@
     }
 }
 
+
+@media (max-width: 440px) {
+    .header-content {
+        align-items: center;
+    }
+
+    .logo-img {
+        width: 30%;
+        margin-top: -8px;
+    }
+
+    .header-right {
+        right: 8px;
+        top: 25px;
+    }
+
+    .header-links {
+        width: 93%;
+        height: auto;
+    }
+
+    .menu-text {
+        font-size: 0.8rem;
+    }
+}
+
 /* Medium screens (tablets, 577px - 768px) */
 @media (min-width: 500px) and (max-width: 768px) {
     .header-right {
